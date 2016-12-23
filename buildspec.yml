@@ -9,6 +9,7 @@ phases:
       - cd src
       - mkdir -p ../artifacts
       - zip -r ../artifacts/eclass_for_alexa.zip .
+      - cd ..
 
 artifacts:
   files:
