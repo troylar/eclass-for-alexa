@@ -3,14 +3,14 @@ version: 0.1
 phases:
   build:
     commands:
-      - apt-get update
-      - apt-get install zip
+      - apt-get update -y
+      - apt-get install -y zip
       - pip install --ignore-installed -r requirements.txt -t ./src 
       - cd src
       - mkdir -p ../artifacts
-      - zip -r ../artifacts/eclass_for_alexa.zip .
+      - zip -r ../artifacts/eclass_for_alexa.zip . &>/dev/null
       - cd ..
 
 artifacts:
   files:
-    - artifacts/eclass_for_alexa.zip
+    - artifacts/*.zip
