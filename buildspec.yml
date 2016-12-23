@@ -9,7 +9,7 @@ phases:
       - cd src
       - mkdir -p ../artifacts
       - zip -r ../artifacts/eclass_for_alexa.zip . &>/dev/null
-      - find / | grep eclass_for_alexa
+      - ls /tmp
 
 artifacts:
   files:
