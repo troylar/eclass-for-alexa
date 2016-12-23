@@ -7,11 +7,9 @@ phases:
       - apt-get install -y zip
       - pip install --ignore-installed -r requirements.txt -t ./src 
       - cd src
-      - mkdir -p ../artifacts
-      - zip -r ../artifacts/eclass_for_alexa.zip . &>/dev/null
-      - ls /tmp
+      - zip -r ../eclass_for_alexa.zip . &>/dev/null
 
 artifacts:
   files:
-    - artifacts/*.zip
+    - eclass_for_alexa.zip
   discard-paths: yes
