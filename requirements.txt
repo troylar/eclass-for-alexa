@@ -3,7 +3,7 @@ boto3==1.4.2
 botocore==1.4.85
 bs4==0.0.1
 cssselect==1.0.0
-lxml==3.7.0
+lxml==4.6.2
 requests==2.12.4
 twill==1.8.0
 urllib3==1.7.1
