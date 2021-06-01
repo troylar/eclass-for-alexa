@@ -6,4 +6,4 @@ cssselect==1.0.0
 lxml==3.7.0
 requests==2.12.4
 twill==1.8.0
-urllib3==1.7.1
+urllib3==1.26.5
